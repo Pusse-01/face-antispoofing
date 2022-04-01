@@ -5,20 +5,6 @@
 This is an application of a combination of Convolutional Neural Networks and Computer Vision to detect
 between actual faces and fake faces in realtime environment. The image frame captured from webcam is passed over a pre-trained model. This model is trained on the depth map of images in the dataset. The depth map generation have been developed from a different CNN model.
 
-
-
-## Requirements
-
-* Python3
-* Tensorflow
-* dlib
-* Keras
-* numpy
-* sklearn
-* Imutils
-* OpenCV 
-
-
 ## File Description
 
 [main.py](https://github.com/anand498/Face-Liveness-Detection/blob/master/main.py):
@@ -47,9 +33,7 @@ git clone https://github.com/anand498/Face-Liveness-Detection.git
 pip install -r requirements.txt
 python main.py
 ```
-And you're good to go!
 
-Don't forget to  :star:    the repo if I made your life easier with this. :wink:
 
 
 
